@@ -41,9 +41,9 @@ const prevBtn = document.getElementById('prevBtn');
 const nextBtn = document.getElementById('nextBtn');
 
 const images = 
-['imageporto/David-Nababan-porto_page-0001.jpg', 
+['imageporto/1.png', 
 'imageporto/David-Nababan-porto_page-0002.jpg', 
-'imageporto/David-Nababan-porto_page-0003.jpg', 
+'imageporto/3.png', 
 'imageporto/David-Nababan-porto_page-0004.jpg',
 'imageporto/David-Nababan-porto_page-0005.jpg',
 'imageporto/David-Nababan-porto_page-0006.jpg',
