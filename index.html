@@ -17,9 +17,9 @@
             <button class="mobile-menu-button">Menu</button>
             <ul class="mobile-menu">
                 <li><a href="#">Home</a></li>
-                <li><a href="#">About Me</a></li>
-                <li><a href="#">My Project</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projectmy">My Project</a></li>
+                <li><a href="#contactmy">Contact</a></li>
             </ul>
         </nav>
         <section class="profile">
@@ -127,7 +127,7 @@
     </div>
 
     <!----Project-->
-    <div class="Project-section">
+    <div class="Project-section" id="projectmy">
         <h1>My Project</h1>
         <div class="slider">
             <div class="logo" id="prevBtn"><i class="fas fa-chevron-left"></i></div>
@@ -145,26 +145,27 @@
     </div>
 
     <!-------CONTACT-->
-    <div class="contact-container">
+    <div class="contact-container" id="contactmy">
         <div class="contact-info">
             <h2>My Contact</h2>
             <p><i class="fas fa-envelope"></i> nbbndvd@gmail.com</p>
-            <p><i class="fab fa-linkedin"></i> <a href="linkedin.com/in/davidnababanee" target="_blank">davidnababanee</a></p>
+            <p><i class="fab fa-linkedin"></i> <a href="linkedin.com/in/davidnababanee"
+                    target="_blank">davidnababanee</a></p>
             <p><i class="fab fa-github"></i> <a href="github.com/DavidNbEE" target="_blank">DavidNbEE</a></p>
             <a href="image/David Nababan-resume.pdf" download><button>My CV</button></a>
         </div>
         <div class="contact-form">
             <h2>Contact Me</h2>
-           <!--<form action="proses.php" method="post">-->
-                <div class="form-group">
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" required>
-                </div>
-                <div class="form-group">
-                    <label for="saran">Message:</label>
-                    <textarea id="saran" name="saran" rows="4" required></textarea>
-                </div>
-                <button type="submit">Send</button>
+            <!--<form action="proses.php" method="post">-->
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="saran">Message:</label>
+                <textarea id="saran" name="saran" rows="4" required></textarea>
+            </div>
+            <button type="submit">Send</button>
             <!--</form>-->
         </div>
     </div>
