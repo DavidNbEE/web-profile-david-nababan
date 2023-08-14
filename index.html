@@ -12,32 +12,164 @@
 
 <body>
     <div class="header">
+
         <nav class="topbar">
-            <ul>
+            <button class="mobile-menu-button">Menu</button>
+            <ul class="mobile-menu">
                 <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Achievement</a></li>
+                <li><a href="#">About Me</a></li>
+                <li><a href="#">My Project</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
         </nav>
         <section class="profile">
             <img src="image/profile-pic (1).png" alt="Paris" class="center">
             <div class="icon-bar">
-                <a href="https://www.linkedin.com/in/davidnababanee" class="icon linkedin"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.linkedin.com/in/davidnababanee" class="icon linkedin"><i
+                        class="fab fa-linkedin"></i></a>
                 <a href="https://github.com/DavidNbEE" class="icon github"><i class="fab fa-github"></i></a>
-                <a href="image/David Nababan-resume.pdf" download class="icon email"><i class="fas fa-envelope"></i></a>
+                <div class="icon email" id="email-icon">
+                    <i class="fas fa-envelope"></i>
+                    <div class="email-dropdown" id="email-dropdown">
+                        <p>nbbndvd@gmail.com</p>
+                    </div>
+                </div>
             </div>
             <h1>DAVID NABABAN</h1>
             <div class="typewriter">
                 <div class="typewriter-text" id="typewriter-text">
                 </div>
             </div>
-            <script src="script.js"></script>
             <div class="quotes">
                 "It's not a new weapon. It's a new world." - Niels Bohr
-              </div>
+            </div>
         </section>
     </div>
+    </div>
+    <div class="wave">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#116A7B" fill-opacity="1"
+                d="M0,64L48,106.7C96,149,192,235,288,234.7C384,235,480,149,576,112C672,75,768,85,864,106.7C960,128,1056,160,1152,176C1248,192,1344,192,1392,192L1440,192L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z">
+            </path>
+        </svg>
+        </svg>
+    </div>
+    <!--------------aboutttttt-------------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-1">
+                    <img class="image-about" src="image/line_22712215049877.jpg">
+                </div>
+                <div class="col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>An Electrical Engineering student, born in Batam. Currently studying at Sepuluh Nopember
+                        Institute of Technology.
+                        Passionate to dive into world of technology in Electrical, Telecommunication and software.
+                    </p>
+                    <div class="titles-list">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experiences</p>
+                        <p class="tab-links" onclick="opentab('Educations')">Educations</p>
+                    </div>
+                    <div class="margin-top-contents">
+                        <div class="tab-contents active-tab" id="Skills">
+                            <ul>
+                                <li><span>JavaScript</span><br>Node.Js, express.Js, HAPI framework</li>
+                                <li><span>Python</span><br>Flask</li>
+                                <li><span>Backend Development</span><br>Building web and application backend with
+                                    node.Js
+                                    and Flask, create and manage SQL and noSQL database, creating cloud solutions
+                                </li>
+                                <li><span>Google Cloud Platform</span><br>Operating GCP services such as App Engine,
+                                    CloudSQL, GKE, Cloud Run, etc.</li>
+                                <li><span>Proteus and Eagle</span><br>Designing electrical circuits</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="Experience">
+                            <ul>
+                                <li><span>May-June 2023</span><br>Capstone Project "DigiNote". <br>Download my porto
+                                    to
+                                    this
+                                    project <a href="image/PPT Capstone.pptx" download><span>here</span></a></li>
+                                <li><span>Feb-Jul 2023</span><br>Cloud Computing graduate at Bangkit Academy 2023
+                                </li>
+                                <li><span>Jul-Aug 2023</span><br>Intern at B301 Network Telecommunication Laboratory
+                                    ITS
+                                </li>
+                                <li><span>Mar-Apr 2023</span><br>Practicum Assistant at B301 Network
+                                    Telecommunication
+                                    Laboratory ITS</li>
+                                <li><span>March 2023-present</span><br>Internal Laboratory Assistant at B304
+                                    Multimedia
+                                    Communication Laboratory</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="Educations">
+                            <ul>
+                                <li><span>2020-present</span><br>Electrical Engineering Student from ITS</li>
+                                <li><span>Feb-Jul 2023</span><br>Cloud Computing graduate at Bangkit Academy 2023
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="contact-wave">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#CDC2AE" fill-opacity="1"
+                d="M0,64L48,106.7C96,149,192,235,288,234.7C384,235,480,149,576,112C672,75,768,85,864,106.7C960,128,1056,160,1152,176C1248,192,1344,192,1392,192L1440,192L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z">
+            </path>
+        </svg>
+    </div>
+
+    <!----Project-->
+    <div class="Project-section">
+        <h1>My Project</h1>
+        <div class="slider">
+            <div class="logo" id="prevBtn"><i class="fas fa-chevron-left"></i></div>
+            <img id="image" src="imageporto/David-Nababan-porto_page-0001.jpg" alt="Image">
+            <div class="logo" id="nextBtn"><i class="fas fa-chevron-right"></i></div>
+        </div>
+    </div>
+
+    <div class="wave-project">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#C2DEDC" fill-opacity="1"
+                d="M0,96L48,90.7C96,85,192,75,288,101.3C384,128,480,192,576,197.3C672,203,768,149,864,117.3C960,85,1056,75,1152,90.7C1248,107,1344,149,1392,170.7L1440,192L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z">
+            </path>
+        </svg>
+    </div>
+
+    <!-------CONTACT-->
+    <div class="contact-container">
+        <div class="contact-info">
+            <h2>My Contact</h2>
+            <p><i class="fas fa-envelope"></i> nbbndvd@gmail.com</p>
+            <p><i class="fab fa-linkedin"></i> <a href="linkedin.com/in/davidnababanee" target="_blank">davidnababanee</a></p>
+            <p><i class="fab fa-github"></i> <a href="github.com/DavidNbEE" target="_blank">DavidNbEE</a></p>
+            <a href="image/David Nababan-resume.pdf" download><button>My CV</button></a>
+        </div>
+        <div class="contact-form">
+            <h2>Contact Me</h2>
+           <!--<form action="proses.php" method="post">-->
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="saran">Message:</label>
+                    <textarea id="saran" name="saran" rows="4" required></textarea>
+                </div>
+                <button type="submit">Send</button>
+            <!--</form>-->
+        </div>
+    </div>
 </body>
+
+<script src="script.js"></script>
 
 </html>
